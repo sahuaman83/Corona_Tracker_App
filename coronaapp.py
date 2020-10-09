@@ -133,13 +133,13 @@ ent1 = Entry(root, textvariable=countrydata, font=('arial', 20, 'bold'), relief=
 ent1.place(x=240, y=73)
 
 #############################   Buttons  ###############################
-InHtml = Button(root, text='HTML', bg='green', font=('cooper black', 15), relief=RIDGE, activebackground='blue',activeforeground='white',bd=5, width=5, command=inhtml)
+InHtml = Button(root, text='HTML', bg='LightSteelBlue', font=('cooper black', 15), relief=RIDGE, activebackground='SteelBlue',activeforeground='white',bd=5, width=5, command=inhtml)
 InHtml.place(x=210, y=150)
 
-InJson = Button(root, text='JSON', bg='green', font=('cooper black', 15), relief=RIDGE, activebackground='blue',activeforeground='white',bd=5, width=5, command=injson)
+InJson = Button(root, text='JSON', bg='LightSteelBlue', font=('cooper black', 15), relief=RIDGE, activebackground='LightSteelBlue',activeforeground='white',bd=5, width=5, command=injson)
 InJson.place(x=320, y=150)
 
-InCsv = Button(root, text='CSV', bg='green', font=('cooper black', 15), relief=RIDGE, activebackground='blue', activeforeground='white', bd=5, width=5, command=incsv)
+InCsv = Button(root, text='CSV', bg='LightSteelBlue', font=('cooper black', 15), relief=RIDGE, activebackground='LightSteelBlue', activeforeground='white', bd=5, width=5, command=incsv)
 InCsv.place(x=430, y=150)
 
 Submit = Button(root,text='Submit',bg='red',font=('cooper black',15),relief=RIDGE,activebackground='blue',activeforeground='white', bd=5,width=25, command=download)
